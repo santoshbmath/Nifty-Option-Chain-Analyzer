@@ -1667,19 +1667,3 @@ if TELEGRAM_ENABLED:
         TELEGRAM_CHAT_ID
 
     )
-
-import asyncio
-
-if st.sidebar.button(
-    "Test Telegram"
-):
-
-    asyncio.run(
-
-        telegram.send(
-
-            "Telegram Alerts Working 🚀"
-
-        )
-
-    )
