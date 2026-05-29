@@ -17,7 +17,7 @@ DATABASE_NAME = "option_chain.db"
 
 # Telegram
 
-TELEGRAM_ENABLED = True
+TELEGRAM_ENABLED = False
 
 TELEGRAM_BOT_TOKEN = ""
 
